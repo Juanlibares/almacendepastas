@@ -1,0 +1,20 @@
+[
+    {
+        "_name": "Ravioles de calabaza",
+        "_price": 280,
+        "_description": "Exquisitos ravioles de calabaza horneada y albahaca",
+        "_id": 1
+    },
+    {
+        "_name": "Sorrentinos de 4 quesos",
+        "_price": 520,
+        "_description": "Sorrentinos de parmesano, roquefort, queso mar del plata y cheddar",
+        "_id": 2
+    },
+    {
+        "_name": "Lasagna rellena",
+        "_price": 720,
+        "_description": "Lasagna rellena de jamón, queso, espinaca y salsa bolognesa",
+        "_id": 3
+    }
+]

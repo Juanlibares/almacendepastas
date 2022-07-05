@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main_css.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="elements/almacen.ico">
+    <title>Almacen de pastas</title>
+</head>
+
+<body>
+    <nav class="nav">Almacen de pastas</nav>
+    <h1 id="productos"> Productos principales </h1>
+    <div class="div_prod">
+        <div class="boxes">
+            <img scr="ravioles.jpg" id="ravioles">
+            <p>Ravioles de calabaza<br>Precio: <b>$280</b></p>
+            <button class="add_button" id="but_ravioles">Añadir</button>
+        </div>
+        <div class="boxes">
+            <img scr="sorrentinos.jpg" id="sorrentinos">
+            <p>Sorrentinos 4 quesos<br>Precio: <b>$520</b></p>
+            <button class="add_button" id="but_sorrentinos">Añadir</button>
+        </div>
+        <div class="boxes">
+            <img scr="lasagna.jpg" id="lasagna">
+            <p>Lasagna rellena<br>Precio: <b>$720</b></p>
+            <button class="add_button" id="but_lasagna">Añadir</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <h2>Pedido:</h2>
+        <ul class="visible-scrollbar" id="carrito">
+        </ul>
+        <h3 id="total">Total: $</h3>
+    </div>
+    <div id="bottom">
+        <h2>Debajo se mostrara la información de los productos mediante fetch</h2>
+        <ul class="visible-scrollbar" id="carrito2">
+        </ul>
+    </div>
+    <hr>
+    <div id="buttons">
+        <button class="main_buttons" id="buy_button">Pagar</button>
+        <button class="main_buttons" id="disc_button">Aplicar descuento</button>
+        <button class="main_buttons" id="clean_button">Limpiar todo</button>
+        <button class="main_buttons" id="fetch_button">Fetch JSON</button>
+
+    </div>
+    <hr>
+    <footer>
+        Todos los derechos reservados ®
+        <!-- acá tengo que poner todo lo del footer-->
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script scr="app.js"></script>
+    <script src="js/script_objets.js"></script>
+    <script src="js/script_functions.js"></script>
+    <script src="js/script_DOM.js"></script>
+    <script src="js/main_script.js"></script>
+</body>
+
+</html>

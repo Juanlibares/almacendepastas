@@ -1,0 +1,165 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    margin-left: 3rem;
+}
+
+.nav {
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+}
+
+div {
+    color: rgb(105, 105, 105);
+}
+
+#carrito {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(250, 194, 9);
+    display: block;
+    align-items: flex-start;
+}
+
+#carrito2 {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(250, 194, 9);
+    display: block;
+    align-items: flex-start;
+}
+
+.visible-scrollbar {
+    display: block;
+    width: 10em;
+    overflow: auto;
+}
+
+li {
+    float: inline-start;
+    margin: auto;
+    color: rgb(250, 194, 9);
+    text-shadow: 1px 1px 1px #888;
+    /* Orden de valores: tamaño de sombra a la derecha; tamaño hacia abajo; tamaño de desenfoque; color*/
+}
+
+.inputs {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    width: 20%;
+}
+
+.add_button {
+    display: inline-block;
+    justify-content: center;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    block-size: 2rem;
+}
+
+.div_prod {
+    /*margin-right: 0px;*/
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes {
+    align-items: center;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 3%;
+    padding: 1%;
+    width: 180px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 194, 9);
+    text-shadow: 2px 2px 7px white;
+    box-shadow: 2px 4px 15px 0px black;
+}
+
+#ravioles {
+    padding: 10%;
+    width: 100px;
+    height: 100px;
+    background-image: url(ravioles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+
+#sorrentinos {
+    padding: 10%;
+    width: 100px;
+    height: 100px;
+    background-image: url(sorrentinos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#lasagna {
+    padding: 10%;
+    width: 100px;
+    height: 100px;
+    background-image: url(lasagna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main_buttons {
+    display: inline-block;
+    justify-content: space-around;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    block-size: 2rem;
+}
+
+#buttons {
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom {
+    margin: auto;
+    padding: 0.1rem;
+    padding-left: 1rem;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    height: 350px;
+    width: 500px;
+    /*margin-right: 0%;*/
+    display: inline-table;
+    justify-content: flex-start;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
